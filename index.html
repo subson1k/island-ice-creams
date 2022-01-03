@@ -1,0 +1,268 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>island ice creams</title>
+    <link rel="stylesheet" href="icecream.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" 
+rel="stylesheet">
+</head>
+<body>
+
+ <!--below is a style tag and div containing a loading icon-->
+
+ <style> 
+    #loader { 
+        border: 12px solid #f3f3f3; 
+        border-radius: 50%; 
+        border-top: 12px solid #444444; 
+        width: 150px; 
+        height: 150px; 
+        animation: spin 1s linear infinite; 
+        z-index: 3;
+    } 
+    
+    @keyframes spin { 
+        100% { 
+            transform: rotate(360deg); 
+        } 
+    } 
+    
+    .center { 
+        position: absolute; 
+        top: 0; 
+        bottom: 0; 
+        left: 0; 
+        right: 0; 
+        margin: auto;
+    }   
+    
+</style> 
+<div id="loader" class="center">
+</div>
+
+
+
+<!-- Main content below-->
+
+
+
+
+<div id="mainContainer">
+    <div id="headerDiv">
+
+            <ul id="headerUl">
+                <a href="#"><li>Home</li></a>
+                <a href="#packagesDiv"><li>Packages</li></a>
+                <a href="#philosophyDiv"><li id="aMenu" >About</li></a>
+                <a href="#footerDiv"><li id="aContact">Contact</li></a>
+            </ul>
+
+            <img id="tag" src="haywood2-tag.png"/>
+
+            <img id="tag1" src="smalTtag.png"/>
+            <img id="tag2" src="smalTtag.png"/>
+
+            <img id="logoLight" src="iland-icecreams-log-top02.png" alt="">
+        
+        <div id="menuDiv">
+
+            <ul id="menuUl">
+                <a href="#"><li>Home</li></a>
+                <a href="#packagesDiv"><li>Packages</li></a>
+                <a href="#philosophyDiv"><li id="menuA" >About</li></a>
+                <a href="#footerDiv"><li id="contactA">Contact</li></a>
+            </ul>
+        </div>
+
+            <img id="whiteHeader" src="iland-icecreams-white.png" alt="">
+        </div>
+        <div id="titleDiv">
+
+            <img id="bikePic" src="icecreambike.jpg" alt="">
+    <!-- Below is the alternative picture for mobile -->
+            <img id="bikePic2" src="icecreambike.jpg" alt="">
+
+            <img id="logo" src="iland-icecreams-logo-alternative2.png" alt="">
+    <!-- Below is the alternative picture for mobile -->
+            <img id="logo2" src="iland-icecreams-logo-alternative2.png" alt="">
+
+            <img id="white" src="iland-icecreams-white.png" alt="">
+        <a href="#packagesDiv"><img id="findMore" src="iland-icecreams-findMore.png" alt=""><a/>
+
+        </div>
+        <div id="socialMedia">
+
+        <a href="https://www.facebook.com/Seaside-Ice-Cream-109333284701710"><img id="fb" src="fblogo.jpg" alt=""></a>
+  <!--  <img id="insta" src="iland-icecreams-instaIcon.png" alt="">
+        <img id="twiter" src="iland-icecreams-twiterIcon.png" alt="">
+        <img id="whatsapp" src="iland-icecreams-whatsappIcon.png" alt="">
+-->
+    </div>
+    <div id="packagesDiv">
+
+         <img id="charcoalIce" src="charcoal-ice-cream.jpg" alt="">
+         <img id="bikehiretext" src="iland-icecreams-bikehiretext.png" alt="">
+
+
+
+       <!--  <a href="#"><img id="packBox1" src="iland-icecreams-packagebox.png" alt=""></a> -->
+
+        <div id="packBox1">
+
+            <h1 id="silverh1">Silver</h1>
+
+            <p id="silverP"> Exclusive ice cream bike hire.
+                Complete with refrigeration and a traditional setup.<br>
+            £195 </p>
+
+
+        </div>
+        
+
+
+        <div id="packBox2">
+
+            <h1 id="goldh1">Gold</h1>
+
+            <p id="goldP">
+                Exclusive ice cream bike hire. 
+                 Plus, four flavors of ice cream and cones.<br>
+        <br>
+                £285 </p>
+
+        </div>
+       
+
+        <div id="packBox3">
+
+            <h1 id="plath1">Platinum</h1>
+
+            <p id="platP">
+                Exclusive ice cream bike hire. 
+                 Four flavors of ice cream. Plus, cones and 
+                 complete decorations.
+               
+        <br>
+                £395</p>
+
+        </div>
+
+        <!--Below is the the package onclick box that appears--> 
+        
+         <div id="packageSelectBox">
+
+            <img id="Xselect" src="X-selector.png" alt="">
+
+
+             <h1 id="packageSelectH1"> This text will be chosen with JS</h1>
+
+             <h2 id="packageSelectH2">Please contact us via telephone 
+                 <br>or email to book</h2>
+
+              <h3 id="packageSelectH3">E-mail: Carahouston@rocketmail.com<br>
+                  Phone: 07773636799</h3>   
+
+
+         </div>
+      
+<!--Below is a div that creates the purple box at the bottom of the packages div-->
+    <div id="packBoxDiv">
+
+    </div>
+
+    </div>
+
+    <div id="contactBox">
+
+        <a href="#footerDiv"><img id="contactLogo" src="iland-icecreams-logo-alternative2-light.png" alt=""></a>
+
+    </div>
+
+    <div id="philosophyDiv">
+
+         
+        <div id="philosophyTextBackdrop"></div>
+      
+
+            <h1 id="philosophyh1">We believe natural ice cream is not only healthier but that it tastes better too.<br>
+                We have searched through hundreds of confectionary suppliers to find the perfect ice cream.<br> 
+                So all you have to do is pick your flavour and enjoy.</h1>
+
+              
+       
+
+  
+    </div>
+
+   
+    <div id="contactBox2">
+
+        <h1 id="flavorText">Choose four of the thirty flavors of gourmet ice cream, that is completely organic!</h1>
+
+ <!--    <img id="flavorText" src="flavours-text.png" alt="">  -->
+
+ <!--      <a href="#"><img id="contactLogo2" src="iland-icecreams-contactLogo.png" alt=""></a>  --> 
+
+    </div>
+
+
+    <div id="footerDiv">
+
+        <h1 id="contactH1">Contact us <br>
+                                      <br>
+                                     
+                            Email: Carahouston@rocketmail.com<br>
+                                  <br>
+                            Phone: 07773636799</h1>
+
+        <img id="friendsLight" src="friends-light.png" alt="">
+
+
+        <div id="footer">
+            <img id="logoFooter" src="iland-icecreams-log-top02.png" alt="">
+
+            <ul id="footerUl">
+                <a href="#"><li>Home</li></a>
+                <a href="#packagesDiv"><li>Packages</li></a>
+                <a href="#philosophyDiv"><li id="aMenu" >About</li></a>
+                <a href="#footerDiv"><li id="aContact">Contact</li></a>
+            </ul>
+    
+        </div>
+
+    </div>
+
+</div>
+   
+
+
+  <!--below is a script tag for the loading icon-->
+
+  <script> 
+    this.document.onreadystatechange = function() { 
+        if (document.readyState !== "complete") { 
+            document.querySelector( 
+            "body").style.visibility = "hidden"; 
+            document.querySelector( 
+            "#loader").style.visibility = "visible"; 
+        } else { 
+            document.querySelector( 
+            "#loader").style.display = "none"; 
+            document.querySelector( 
+            "body").style.visibility = "visible"; 
+        } 
+    }; 
+   
+</script> 
+
+<!--Main javascript file-->
+  
+  <script src="icecream.js"></script>
+    
+</body>
+</html>
